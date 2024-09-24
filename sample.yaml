@@ -1,0 +1,11 @@
+sample:
+  name: fdc1004 sample
+  description: FDC1004 capacitive sensor sample application
+tests:
+  sample.sensor.fdc1004:
+    harness: sensor
+    tags: sensors, capacitive
+    platform_allow: nrf9160dk_nrf9160
+    integration_platforms:
+      - nrf9160dk_nrf9160
+
